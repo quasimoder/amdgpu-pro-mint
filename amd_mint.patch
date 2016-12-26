@@ -1,0 +1,12 @@
+--  /tmp/originalamd
++++ /tmp/modifiedamd
+@@ -48,6 +48,9 @@
+ 	ubuntu)
+ 		PACKAGES="amdgpu-pro amdgpu-pro-lib32 amdgpu-pro-dkms"
+ 		;;
++	linuxmint)
++                PACKAGES="amdgpu-pro amdgpu-pro-lib32 amdgpu-pro-dkms"
++                ;;
+ 	steamos)
+ 		PACKAGES="amdgpu-pro-driver amdgpu-pro-lib32 "`
+ 			`"glx-alternative-amdgpu-pro amdgpu-pro-dkms"
