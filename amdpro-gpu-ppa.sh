@@ -9,6 +9,6 @@ cd amdgpu-pro-16.50-362463
 patch /tmp/amdgpu-pro-ppa/amdgpu-pro-16.50-362463/amdgpu-pro-install /tmp/amdgpu-pro-ppa/amd_mint.patch
 apt update
 apt upgrade -y
-apt autoremove
-sh ./tmp/amdgpu-pro-ppa/amdgpu-pro-16.50-362463/amdgpu-pro-install 
+apt autoremove -y
+./amdgpu-pro-install -y
 
